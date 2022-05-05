@@ -20,10 +20,11 @@ def server_disorder_output(logfile):
           since_time = min(since_time_list)
           while i+1 < len(condition)  and '-' in condition[i+1][1]: #次に応答するときのインデックスを発見、応答していない場合until_timeにnowを表示
             i += 1
-            print(i)
             if i+1 == len(condition):
               until_time = "now"
             else:
               until_time = condition[i+1][0]
           with open('output1.txt', 'a') as o:
               print('SERVER ERROR: server_name: "'+server+'" since '+since_time+' until '+until_time, file=o)
+
+server_disorder_output("log1.txt") #暫定的にfilename='log1.txt'としています。実行する際に書き換えて下さい。

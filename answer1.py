@@ -27,8 +27,3 @@ def server_disorder_output(logfile):
               until_time = condition[i+1][0]
           with open('output1.txt', 'a') as o:
               print('SERVER ERROR: server_name: "'+server+'" since '+since_time+' until '+until_time, file=o)
-
-server_disorder_output("log1.txt")
-
-# with open('output.txt', 'r') as o:
-#   print(o.read())

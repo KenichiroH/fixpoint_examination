@@ -39,3 +39,6 @@
 5. 故障しているサーバーアドレスについて、4.1の辞書servers_oooを作成します。
 6. servers_oooとall_serversを対照します。<br>servers_oooのキーと同じall_serversのキーについて、値（ネットワークアドレス）がすべて同じならば、サブネットがダウンしていると判定し、サーバー名とsince_time, until_timeを出力します。
 7. output4.txt に結果を出力します。
+
+## テスト
+テストに用いた監査ログはtest(設問番号).txt、結果はtest_output（設問番号）.txtとしてリポジトリにアップロードしています。

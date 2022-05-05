@@ -33,3 +33,9 @@
 
 ### 設問4
 1. 関数network_dictを定義します。<br>この関数はサーバーアドレス(server)と辞書(servers_net_host)を引数に取り、ネットワーク部が同じサーバーアドレスを辞書servers_net_hostにまとめます。severs_net_hostはキー：ネットワーク部、値：サーバアドレスのリストです。
+2. 設問2.1に同じ。
+3. 辞書すべてのサーバーアドレスについて、4.1の辞書all_serversを作成します。
+4. 設問2.2,3に同じ
+5. 故障しているサーバーアドレスについて、4.1の辞書servers_oooを作成します。
+6. servers_oooとall_serversを対照します。<br>servers_oooのキーと同じall_serversのキーについて、値（ネットワークアドレス）がすべて同じならば、サブネットがダウンしていると判定し、サーバー名とsince_time, until_timeを出力します。
+7. output4.txt に結果を出力します。
